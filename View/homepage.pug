@@ -1,0 +1,13 @@
+html
+    head
+        title Rock Paper Scissors
+        link(rel="stylesheet", href="/css/styles.css")
+    body
+        h1 Rock Paper Scissors
+        h2 Faites votre choix
+        a(href="/result" + rock).choice
+            img(src="/rock.png)
+        a(href="/result" + paper).choice
+            img(src="/paper.png)
+        a(href="/result" + scissors).choice
+            img(src="/scissors.png)
